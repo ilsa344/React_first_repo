@@ -1,0 +1,283 @@
+
+.product-entry {
+    margin-bottom: 40px;
+    .product-img{
+        background-size: cover;
+        height: 350px;
+        margin-bottom: 20px;
+        position: relative;
+    .tag{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+
+        .New {
+            font-size: 11px;
+            background: #FFC300;
+            color: #fff;
+            padding: .3em .5em;
+            border-radius: 2px;
+        }
+        .Sale {
+            font-size: 11px;
+            background: #DD3E3E;
+            color: #fff;
+            padding: .3em .5em;
+            border-radius: 2px;
+        }
+    }
+    .cart {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        display: block;
+        padding: 0 1em;
+        opacity: 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        p {
+            display: block;
+            margin-bottom: 0;
+            width: 100%;
+            text-transform: uppercase;
+            font-size: 12px;
+           
+            text-align: center;
+            span {
+                display: inline-block;
+                a {
+                    display: block;
+                    color: #fff;
+                    padding: 1em;
+                }
+                a:hover {
+                    background: #FFC300;
+                }
+            }
+        }
+    }
+    }
+
+ .desc {
+     h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-bottom: 10px;
+        a {
+            color: #000;
+        }
+    }
+    .price{
+        span {
+            color: #FFC300;
+            font-weight: 400;
+        }
+        .sale {
+            color: gray;
+            text-decoration: line-through;
+            font-weight: 300;
+        }
+    }
+}
+p {
+    margin-bottom: 20px;
+}
+}
+.product-entry:hover .cart{
+    opacity: 1;
+    
+}
+.sidebar .side {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #e6e6e6 !important;
+    padding: 1.5em;
+    // border: 1px solid red;
+     h2 {
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    .panel-group .panel {
+        margin-bottom: 0;
+        border-radius: 4px;
+    }
+}
+.fancy-collapse-panel .panel-default > .panel-heading {
+    padding: 0;
+    border: none;
+    background: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+.panel-default > .panel-heading {
+    color: #333333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-group .panel-heading {
+    border-bottom: 0;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.panel-heading a.collapsed {
+    color: #333333;
+}
+.panel-heading a {
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #FFC300;
+    position: relative;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.panel-heading a:after {
+    font-family: "icomoon";
+    content: "\e994";
+    position: absolute;
+    right: 20px;
+    font-size: 11px;
+    font-weight: 400;
+    top: 50%;
+    line-height: 1;
+    margin-top: -8px;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+}
+.panel-body ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.panel-body ul li a {
+    color: #000;
+}
+.panel-body ul li {
+    font-size: 12px;
+}
+.sidebar .colorlib-form-2 label {
+    font-weight: normal;
+    color: black;
+}
+
+.color-wrap {
+    margin-bottom: 20px;
+    position: relative;
+}
+.color-wrap p.color-desc {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 500;
+}
+.color-wrap p.color-desc .color {
+    padding: 10px;
+    display: block;
+    display: inline-block;
+}
+.size-wrap {
+    margin-bottom: 20px;
+    position: relative;
+}
+.size-wrap p.size-desc {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 500;
+}
+.size-wrap p.size-desc .size {
+    font-size: 12px;
+    text-align: center;
+    width: 36px;
+    padding: 5px 0;
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    color: gray;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.pagination li {
+    margin: 2px;
+}
+
+.pagination > li {
+    display: inline;
+}
+.pagination li a:first-child {
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+-ms-border-radius: 2px;
+border-radius: 2px;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > a {
+margin-left: 0;
+border-bottom-left-radius: 4px;
+border-top-left-radius: 4px;
+}
+.pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+color: #777777;
+background-color: #fff;
+border-color: #ddd;
+cursor: not-allowed;
+}
+.pagination li a {
+color: #000;
+background: #fff;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+-ms-border-radius: 0;
+border-radius: 0;
+margin: 2px;
+}
+.pagination > li > a, .pagination > li > a {
+position: relative;
+float: left;
+padding: 10px 20px;
+line-height: 1.42857;
+text-decoration: none;
+color: #337ab7;
+background-color: #fff;
+border: 1px solid #ddd;
+margin-left: -1px;
+}
+a {
+color: #FFC300;
+-webkit-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
+}
+.pagination li.active a {
+    border: 1px solid #FFC300;
+    background: #FFC300;
+    color: #000;
+}
+.row-pb-md {
+    padding-bottom: 4em !important;
+}
+.color{
+    margin-right: 3px;
+}
